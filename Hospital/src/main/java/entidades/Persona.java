@@ -1,4 +1,4 @@
-package modelos;
+package entidades;
 
 public abstract class Persona {
     int CI;
