@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import java.util.List;
 
-public class modDoctor {
+public class ModDoctor {
     public void crearDoctor(Doctor doctor) {
         EntityManager gerenteEntidad = JPAUtil.getEntityManager();
         EntityTransaction transaccion = gerenteEntidad.getTransaction();

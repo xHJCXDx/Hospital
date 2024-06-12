@@ -9,7 +9,7 @@ public class JPAUtil {
 
     static {
         try {
-            entityManagerFactory = Persistence.createEntityManagerFactory("my-persistence-unit");
+            entityManagerFactory = Persistence.createEntityManagerFactory("hospital");
         } catch (Throwable ex) {
             // Log the exception.
             System.err.println("Fallo la creacion de EntityManagerFactory" + ex);

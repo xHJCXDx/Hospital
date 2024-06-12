@@ -12,8 +12,8 @@ public class Hospital {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private ArrayList<Doctor> D;
-    private ArrayList<Paciente> P;
+    private ArrayList<Doctor> D = new ArrayList<Doctor>();
+    private ArrayList<Paciente> P = new ArrayList<Paciente>();
 
     //Constructor
     public Hospital(int id, ArrayList<Doctor> d, ArrayList<Paciente> p) {

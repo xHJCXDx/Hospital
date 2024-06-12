@@ -12,11 +12,13 @@ public class Doctor {
     private int Codigo;
 
     private String nombre;
-    private String especialidad;
+    private Especialidad especialidad = new Especialidad();
     private int ListaPacientes;
 
     //Constructor
-    public Doctor(int codigo, String nombre, String especialidad, int listaPacientes) {
+
+
+    public Doctor(int codigo, String nombre, Especialidad especialidad, int listaPacientes) {
         Codigo = codigo;
         this.nombre = nombre;
         this.especialidad = especialidad;
@@ -27,6 +29,15 @@ public class Doctor {
     }
 
     //Get and Set
+
+    public Especialidad getEspecialidad() {
+        return especialidad;
+    }
+
+    public void setEspecialidad(Especialidad especialidad) {
+        this.especialidad = especialidad;
+    }
+
     public int getCodigo() {
         return Codigo;
     }
@@ -37,14 +48,6 @@ public class Doctor {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getEspecialidad() {
-        return especialidad;
-    }
-
-    public void setEspecialidad(String especialidad) {
-        this.especialidad = especialidad;
     }
 
     public int getListaPacientes() {
