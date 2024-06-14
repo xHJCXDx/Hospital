@@ -19,7 +19,6 @@ public class ModDoctor {
             if (transaccion.isActive()) {
                 transaccion.rollback();
             }
-            e.printStackTrace();
         } finally {
             gerenteEntidad.close();
         }
@@ -47,7 +46,6 @@ public class ModDoctor {
             if (transaccion.isActive()) {
                 transaccion.rollback();
             }
-            e.printStackTrace();
         } finally {
             gerenteEntidad.close();
         }
@@ -67,7 +65,6 @@ public class ModDoctor {
             if (transaccion.isActive()) {
                 transaccion.rollback();
             }
-            e.printStackTrace();
         } finally {
             gerenteEntidad.close();
         }

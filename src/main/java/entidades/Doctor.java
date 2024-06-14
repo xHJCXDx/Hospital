@@ -1,8 +1,5 @@
 package entidades;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Doctor {
@@ -10,10 +7,24 @@ public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Codigo;
-
     private String nombre;
-    private Especialidad especialidad = new Especialidad();
     private int ListaPacientes;
+
+    @OneToOne
+    private Especialidad especialidad = new Especialidad();
+
+    @ManyToOne
+    @JoinColumn(name = "hospital_id")
+    private Hospital hospital;
+
+    public Hospital getHospital() {
+        return hospital;
+    }
+
+    public void setHospital(Hospital hospital) {
+        this.hospital = hospital;
+    }
+
 
     //Constructor
 

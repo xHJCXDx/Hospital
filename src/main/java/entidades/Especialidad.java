@@ -24,10 +24,6 @@ public class Especialidad {
         return Codigo;
     }
 
-    public void setCodigo(int codigo) {
-        Codigo = codigo;
-    }
-
     public String getNombre() {
         return Nombre;
     }

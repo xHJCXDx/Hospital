@@ -24,4 +24,20 @@ public class contDoctor {
 
         controladorD.crearDoctor(d);
     }
+
+    public void leerDoctor(){
+
+    }
+
+    public void actualizarDoctor(){
+
+    }
+
+    public void eliminarDoctor(){
+
+    }
+
+    public void listarDoctor(){
+
+    }
 }

@@ -4,29 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e1e994-6e62-4062-9bf4-d6b7c4248bea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Hospital/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/Menu/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/Menu/MenuDoctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/Menu/MenuPrincipal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/controladores/contDoctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/entidades/Doctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/entidades/Especialidad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/entidades/Hospital.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/entidades/Paciente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/entidades/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/herramientas/Funciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/herramientas/JPAUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/java/modelo/ModDoctor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hospital/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+    <list default="true" id="95e1e994-6e62-4062-9bf4-d6b7c4248bea" name="Changes" comment="Correccion de orden del proyecto">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controladores/contEspecialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controladores/contHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controladores/contPaciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModEspecialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ModPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/MenuDoctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controladores/contDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controladores/contDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/ModDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/ModDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -39,14 +50,21 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hiroj/OneDrive/Documentos/UTN/Semestre 2/Laboratorio de programacion/Proyectos/Hospital2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +74,27 @@
       <option name="presentableId" value="Default" />
       <updated>1718294327885</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correccion de orden del proyecto">
+      <option name="closed" value="true" />
+      <created>1718296690753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718296690753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Correccion de orden del proyecto">
+      <option name="closed" value="true" />
+      <created>1718296748048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718296748048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correccion de orden del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correccion de orden del proyecto" />
   </component>
 </project>

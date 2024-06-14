@@ -1,17 +1,15 @@
 package entidades;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.ArrayList;
 
 @Entity
 public class Hospital {
-    //Atributos
+    //Atributos>
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @OneToMany(mappedBy = "hospital")
     private ArrayList<Doctor> D = new ArrayList<Doctor>();
     private ArrayList<Paciente> P = new ArrayList<Paciente>();
 
