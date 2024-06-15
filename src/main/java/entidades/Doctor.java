@@ -1,5 +1,6 @@
 package entidades;
 import javax.persistence.*;
+import javax.swing.*;
 
 @Entity
 public class Doctor {
@@ -74,5 +75,6 @@ public class Doctor {
         System.out.println("Nombre: " + nombre);
         System.out.println("Especialidad: " + especialidad);
         System.out.println("Lista de Pacientes: " + ListaPacientes);
+        JOptionPane.showMessageDialog(null, "Nombre: " + nombre+"\nEspecialidad: " + especialidad+"\nLista de Pacientes: " + ListaPacientes);
     }
 }

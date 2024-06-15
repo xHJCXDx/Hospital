@@ -3,22 +3,25 @@ package controladores;
 import entidades.Doctor;
 import entidades.Especialidad;
 import herramientas.Funciones;
-import modelo.ModDoctor;
 import modelo.ModEspecialidad;
 
+import java.util.List;
+
 public class contEspecialidad {
-    Especialidad e = new Especialidad();
+    ModEspecialidad e = new ModEspecialidad();
     public void crearEspecialidad(){
-        //crear doctor
-        String lector = Funciones.InputDialogNoVacio("Ingrese Nombre del doctor:");
-        e.setNombre(lector);
+        Especialidad especialidad = new Especialidad();
 
-        ModEspecialidad controladorE = new ModEspecialidad();
+        //crear especialidad
+        String lector = Funciones.InputDialogNoVacio("Ingrese nombre Especialidad:");
+        especialidad.setNombre(lector);
 
-        controladorE.crearEspecialidad(e);
+        e.crearEspecialidad(especialidad);
     }
 
     public void leerEspecialidad(){
+        int lector = Funciones.LimitacionNumericaInt("Ingrese id del especialidad:","id",9999,1);
+        e.leerEspecialidad(lector);
 
     }
 
@@ -27,10 +30,14 @@ public class contEspecialidad {
     }
 
     public void eliminarEspecialidad(){
-
+        int lector = Funciones.LimitacionNumericaInt("Ingrese id del Especialidad:","id",9999,1);
+        e.eliminarEspecialidad(lector);
     }
 
     public void listarEspecialidad(){
-
+        List<Especialidad> lista = e.listarEspecialidades();
+        for (Especialidad especialidad : lista) {
+            especialidad.getNombre();
+        }
     }
 }
